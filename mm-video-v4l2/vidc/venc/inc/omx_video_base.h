@@ -633,4 +633,12 @@ class omx_video: public qc_omx_component
 
 };
 
+
+#ifndef EXTRADATA_NONE
+#define EXTRADATA_NONE MSM_VIDC_EXTRADATA_NONE
+#endif
+#ifndef EXTRADATA_METADATA_MBI
+#define EXTRADATA_METADATA_MBI MSM_VIDC_EXTRADATA_METADATA_MBI
+#endif
+
 #endif // __OMX_VIDEO_BASE_H__
